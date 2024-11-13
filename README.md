@@ -5,7 +5,6 @@
   <ul>
     <li><a href="#sobre-o-projeto">Sobre o Projeto</a></li>
     <li><a href="#funcionalidades">Funcionalidades</a></li>
-    <li><a href="#instalacao-e-configuracao">Instalação e Configuração</a></li>
     <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
     <li><a href="#contribuidores">Contribuidores</a></li>
   </ul>
