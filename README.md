@@ -25,21 +25,14 @@
     <li>Interface amigável para operadores de caixa</li>
   </ul>
 
-  <h2 id="instalacao-e-configuracao">Instalação e Configuração</h2>
-  <p>Para instalar e configurar o VendiPro, siga as etapas abaixo:</p>
-  <ol>
-    <li>Clone este repositório: <code>git clone https://github.com/seu-usuario/vendipro.git</code></li>
-    <li>Instale as dependências necessárias (exemplo: Node.js, Python, etc.).</li>
-    <li>Configure o banco de dados com os dados de acesso e os esquemas de tabelas fornecidos.</li>
-    <li>Execute o servidor de desenvolvimento e acesse o sistema pela URL local.</li>
-  </ol>
+
 
   <h2 id="tecnologias-utilizadas">Tecnologias Utilizadas</h2>
   <ul>
-    <li>Linguagem de Programação: Python, JavaScript</li>
-    <li>Banco de Dados: MySQL, SQLite (opcional para testes locais)</li>
-    <li>Frontend: HTML5, CSS3, Bootstrap</li>
-    <li>Backend: Node.js, Express (para APIs), Django (opcional)</li>
+    <li>Linguagem de Programação: React.js, React Native</li>
+    <li>Banco de Dados: MySQL </li>
+    <li>Frontend: React.js, React Native, CSS, HTML5 </li>
+    <li>Backend: </li>
   </ul>
 
   <h2 id="contribuidores">Contribuidores</h2>
