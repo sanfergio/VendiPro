@@ -37,6 +37,6 @@
   <h2 id="contribuidores">Contribuidores</h2>
   <ul>
     <li>Giovani Marlon</li>
-    <li>Gabriel Santos</li>
+    <li>Gabriel Cruz</li>
     <li>Gabriel Schimidth</li>
   </ul>
