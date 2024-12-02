@@ -29,7 +29,7 @@
   <h2 id="tecnologias-utilizadas">Tecnologias Utilizadas</h2>
   <ul>
     <li>Linguagem de Programação: React.js, React Native</li>
-    <li>Banco de Dados: MySQL </li>
+    <li>Banco de Dados: </li>
     <li>Frontend: React.js, React Native, CSS, HTML5 </li>
     <li>Backend: </li>
   </ul>
