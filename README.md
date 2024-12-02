@@ -1,6 +1,5 @@
 <h1>VendiPro</h1>
   <p><a href="https://www.vendipro.com">www.vendipro.com</a></p>
-  <p><a href="https://codesandbox.io/p/sandbox/login-prototipo-sistema-de-gestao-1-5-fv4hfn"/>docs</p>
 
   <h2>Índice</h2>
   <ul>
