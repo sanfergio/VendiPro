@@ -1,0 +1,130 @@
+@media (max-width: 1020px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .navbar {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-actions {
+    margin-left: 14px;
+  }
+
+  .navbar ul {
+    display: none;
+    list-style: none;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 2rem;
+    background: #007bff;
+    color: white;
+  }
+
+  .hero h1 {
+    margin-bottom: 1rem;
+  }
+
+  .hero button {
+    padding: 0.5rem 2rem;
+    background: white;
+    border: none;
+    color: #007bff;
+    font-size: 1rem;
+    border-radius: 80px;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+
+  .hero button:hover {
+    padding: 0.5rem 2rem;
+    background: white;
+    border: none;
+    color: #007bff;
+    font-size: 1rem;
+    border-radius: 80px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+
+  .features {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .feature-item {
+    font-size: 100%;
+    text-align: center;
+    padding: 1rem;
+    width: 100vw;
+    transition: transform 0.3s ease;
+  }
+
+  .feature-item:hover {
+    transform: scale(1.05);
+  }
+  .details-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  .details-section h2 {
+    margin-bottom: 1rem;
+  }
+
+  .details-section img {
+    max-width: 80%;
+    transition: transform 0.3s ease;
+    height: 40vh;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+  }
+
+  .details-section img:hover {
+    max-width: 80%;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 20px black;
+    cursor: pointer;
+  }
+
+  .details-section p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+}

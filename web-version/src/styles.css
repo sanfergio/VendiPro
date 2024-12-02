@@ -22,13 +22,36 @@ body {
   align-items: center;
 }
 
+.login-button {
+  background-color: #4d50ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 33px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #1e1aff;
+}
+
+.login-button:active {
+  background-color: #0004e6;
+}
+
+.login-button:focus {
+  outline: none;
+}
+
 .navbar ul {
   display: flex;
   list-style: none;
 }
 
 .navbar ul li {
-  margin-right: 20px;
+  margin-right: 2px;
 }
 
 .navbar ul li a {

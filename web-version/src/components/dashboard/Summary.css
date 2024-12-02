@@ -1,0 +1,27 @@
+/* Summary.css */
+.summary-container {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.summary-item h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+.summary-number {
+  font-size: 1.5rem;
+  color: #4caf50;
+  font-weight: bold;
+}

@@ -1,0 +1,284 @@
+.dashboard-container {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.dashboard-content {
+  height: 100vh;
+}
+
+.greeting-message {
+  margin-bottom: 20px; /* Espaçamento entre a mensagem e os botões */
+  text-align: center; /* Centraliza o texto */
+}
+
+.greeting-message h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.button-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaçamento entre os botões */
+  align-items: center; /* Alinha os botões no centro */
+}
+
+.dashboard-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px; /* Ajuste a largura conforme necessário */
+}
+
+.dashboard-button:hover {
+  background-color: #45a049;
+}
+
+/*  venda  */
+
+h2 {
+  font-size: 180%;
+  margin: 10px;
+}
+
+.venda-pai {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.venda-pai button {
+  background-color: #007da6;
+  text-shadow: 0 0 1px black;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.venda-pai input {
+  border: none;
+  height: 50px;
+  width: 40vw;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.venda-botaos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10vh;
+  width: 100vw;
+}
+
+.venda-botaos2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10vh;
+  width: 100vw;
+}
+
+.venda-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10vh;
+  width: 100vw;
+}
+
+.venda-botaos2 button {
+  background-color: red;
+}
+
+.venda-input {
+  width: 100vw;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.camera {
+  width: 100vw;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrinho {
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  overflow-y: hidden;
+}
+
+#cancel {
+  background-color: red;
+}
+
+#finish {
+  background-color: green;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+}
+
+#ul {
+  background-color: whitesmoke;
+  width: 100vw;
+}
+
+.li {
+  border: 1px solid black;
+  color: black;
+}
+
+#total {
+  color: #a1ff78;
+}
+
+@media (max-width: 1020px) {
+  /*  venda  */
+
+  h2 {
+    font-size: 110%;
+    margin: 10px;
+    overflow-y: hidden;
+  }
+
+  .venda-pai {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .venda-pai button {
+    background-color: #007da6;
+    text-shadow: 0 0 1px black;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .venda-pai input {
+    border: none;
+    height: 50px;
+    width: 80vw;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .venda-botaos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100vw;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se necessário */
+    gap: 10px; /* Adiciona um espaço entre os itens */
+    padding: 10px;
+  }
+
+  .venda-botaos2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100vw;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se necessário */
+    gap: 10px; /* Adiciona um espaço entre os itens */
+    padding: 10px;
+  }
+
+  .venda-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100vw;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se necessário */
+    gap: 10px; /* Adiciona um espaço entre os itens */
+    padding: 10px;
+  }
+
+  .venda-botaos2 button {
+    background-color: red;
+  }
+
+  .venda-input {
+    width: 100vw;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .scanner-container {
+    height: auto;
+    overflow-y: hidden;
+  }
+
+  .camera {
+    width: 100vw;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carrinho {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    overflow-y: hidden;
+  }
+
+  #cancel {
+    background-color: red;
+  }
+
+  #finish {
+    background-color: green;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+  }
+}
